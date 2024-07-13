@@ -1,6 +1,6 @@
-[[ "$TERM" = "dumb" ]] && return
-
 alias ls='ls --color=auto'
+
+[[ "$TERM" = "dumb" ]] && return
 
 export EDITOR="emacsclient"
 
