@@ -7,5 +7,5 @@ export EDITOR="emacsclient"
 export PATH="$HOME/bin:$PATH"
 
 if [[ "$INSIDE_EMACS" = 'vterm' ]]; then
-   source ./emacs.sh
+   source ~/.config/bash-config/emacs.sh
 fi
